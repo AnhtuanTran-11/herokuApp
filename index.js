@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === "development") {
 
 server.get("/api/hello", (req, res) => {
   res.json({
-    message: "hello",
+    message: "I love it",
   });
 });
 
